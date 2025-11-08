@@ -4,14 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
-
-         Console.Write("What is your first name? ");
-        string first = Console.ReadLine();
-
+        // Prompt for first name
+        Console.Write("What is your first name? ");
+        string firstName = Console.ReadLine();
+        
+        // Prompt for last name
         Console.Write("What is your last name? ");
-        string last = Console.ReadLine();
-
-        Console.WriteLine($"Your name is {last}, {first} {last}.");
+        string lastName = Console.ReadLine();
+        
+        // Display the full name in the specified format
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
+    
